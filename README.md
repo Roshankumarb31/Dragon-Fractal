@@ -17,7 +17,7 @@ A Dragon curve is a recursive non-intersecting curve also known as the Harter–
 The pointer follows the path as follows:
 <br>
 
-![image](https://github.com/Roshankumarb31/Dragon-Fractal/assets/118297543/e90588a7-6431-4653-9b4f-b2efbb35b454)
+![image](https://github.com/Roshankumarb31/Dragon-Fractal/assets/118297543/8cccbc80-2171-4fbf-a4ab-a7e6be61c80c)
 
 <br>
 <br>
