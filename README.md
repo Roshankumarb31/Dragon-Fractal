@@ -7,3 +7,6 @@ A Dragon curve is a recursive non-intersecting curve also known as the Harter–
 2. A set of constants: symbols that do not get replaced.e.g: !, [, ], +, -.
 3. A single axiom: a string & is the initial state of the system.
 4. A set of production rules: defining the way/rule variables can be replaced.
+
+
+![image](https://github.com/Roshankumarb31/Dragon-Fractal/assets/118297543/d64451c2-f844-4b3f-adb3-fa97dd39c11f)
