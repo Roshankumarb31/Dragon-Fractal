@@ -28,3 +28,11 @@ Here <br>
 In the output image, the length of line segment is set to 1, for faster output, which seems to be a solid fill
   
 <hr>
+
+  
+<h2>Try other possible color combinations</h2>
+<img width="1517" alt="colorsPage1" src="https://github.com/Roshankumarb31/Dragon-Fractal/assets/118297543/5d59a550-3454-401a-a988-ae2fb35e631c">
+<img width="1517" alt="colorsPage2" src="https://github.com/Roshankumarb31/Dragon-Fractal/assets/118297543/ba63104a-5c12-4200-866f-26106a073f4e">
+<img width="1544" alt="colorsPage3" src="https://github.com/Roshankumarb31/Dragon-Fractal/assets/118297543/01b150be-479e-41a0-9edd-8a2494ecc2bc">
+<img width="1524" alt="colorsPage4" src="https://github.com/Roshankumarb31/Dragon-Fractal/assets/118297543/09cf0ebf-fbfc-43c6-ab13-06cec7ae6401">
+
