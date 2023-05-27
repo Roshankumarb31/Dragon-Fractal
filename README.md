@@ -21,6 +21,6 @@ A Dragon curve is a recursive non-intersecting curve also known as the <b>Harter
 Here <br>
   
   <p2>Pen color :</p2><p1>RED</p1><br>
-  <p2>Bg  color :</p2><p1>BLACK</p1>
+  <p2>B_g  color :</p2><p1>BLACK</p1>
   
 <hr>
