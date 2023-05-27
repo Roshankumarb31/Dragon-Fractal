@@ -8,11 +8,8 @@ A Dragon curve is a recursive non-intersecting curve also known as the <b>Harter
 3. A single axiom: a string & is the initial state of the system.<br>
 4. A set of production rules: defining the way/rule variables can be replaced.<br>
 
-<br><br>
-
-![image](https://github.com/Roshankumarb31/Dragon-Fractal/assets/118297543/d64451c2-f844-4b3f-adb3-fa97dd39c11f)
-
 <br>
 <br>
 
-The output will be like as follows:<br>
+  <h2>Output for 20 iterations</h2><br>
+![image](https://github.com/Roshankumarb31/Dragon-Fractal/assets/118297543/511aecec-0854-4e94-b779-3da67b174508)
