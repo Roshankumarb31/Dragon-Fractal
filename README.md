@@ -26,3 +26,5 @@ Here <br>
 <hr>
   <h3>NOTE</h2>
 In the output image, the length of line segment is set to 1, for faster output, which seems to be a solid fill
+  
+<hr>
