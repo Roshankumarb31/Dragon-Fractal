@@ -1,47 +1,42 @@
-# import the turtle module to use turtle graphics
-import turtle
+import turtle	# import the turtle module to use turtle graphics
 
-# make variables for the right and left containing 'r' and 'l'
-r = 'r'
-l = 'l'
+r = 'r'		#r --> right
+l = 'l'		#l --> left
 
-# assign our first iteration a right so we can build off of it
+#basic iteration function
 old = r
 new = old
 
-# for inputs
+#input block
 iteration = int(input('Enter iteration:'))
 length = int(input('Enter length of each segment:'))
 pencolor = input('Enter pen color:')
 bgcolor = input('Enter background color:')
 
-# set the number of times we have been creating
-# the next iteration as the first
+#a variable for keeping a count on the number of iterations
 cycle = 1
 
-# keep on generating the next iteration until desired iteration is reached
+#this is the main loop in the program where the path for the pointer is calculated
 while cycle<iteration:
-	# add a right to the end of the old iteration and save it to the new
-	new = (old) + (r)
-	# flip the old iteration around(as in the first character becomes last)
+	# a right is added to the end of the previous iteration 
+	new = (old) + (r)			#new path is saved
+	# reverse the path
 	old = old[::-1]
-	# cycling through each character in the flipped old iteration:
+	# Now traverse the old path by flipping the cycle
 	for char in range(0, len(old)):
-		# if the character is a right:
+		# if the character is right --> change it to left
 		if old[char] == r:
-			# change it to a left
 			old = (old[:char])+ (l) + (old[char + 1:])
-		# otherwise, if it's a left:
+		# if the character is left  --> change it to right
 		elif old[char] == l:
-			#change it to a right
 			old = (old[:char]) + (r) + (old[char + 1:])
-	# add the modified old to the new iteration
+	# add the altered old to the new iteration
 	new = (new) + (old)
 
 	# save the new iteration to old as well for use next cycle
 	old = new
 
-	# advance cycle variable to keep track of the number of times it's been done
+	# advance the cycle for next iteration
 	cycle = cycle + 1
 
 
@@ -56,13 +51,13 @@ turtle.color(pencolor)
 turtle.bgcolor(bgcolor)
 turtle.forward(length)
 
-# cycling through all the characters in the iteration
-for char in range(0, len(new)):
-	# if the character is a right:
-	if new[char] == (r):
+#the path calculated in the above while loop is iterated by each character for pointer position
+for i in range(0, len(new)):
+	# if the character is a right
+	if new[i] == (r):
 		turtle.right(90)
 		turtle.forward(length)
 	# otherwise, if the character is a left:
-	elif new[char] == (l):	
+	elif new[i] == (l):	
 		turtle.left(90)
 		turtle.forward(length)
