@@ -10,7 +10,17 @@ A Dragon curve is a recursive non-intersecting curve also known as the <b>Harter
 
 <br>
 <br>
+  <hr>
 
-  <h2>Output for 20 iterations</h2><br>
+<h2>Output for 20 iterations</h2><br>
   
 ![image](https://github.com/Roshankumarb31/Dragon-Fractal/assets/118297543/511aecec-0854-4e94-b779-3da67b174508)
+
+<br>
+
+Here <br>
+  
+  <p2>Pen color :</p2><p1>RED</p1><br>
+  <p2>Bg  color :</p2><p1>BLACK</p1>
+  
+<hr>
